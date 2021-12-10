@@ -1,0 +1,71 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+h1{
+  color: #50b7f5;
+  font-size: 70px;
+  text-align: center;
+}
+
+button {
+  background-color: #50b7f5;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.login {
+  text-decoration: none;
+  color: #50b7f5;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar > h4 {
+  padding-left: 15px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}
